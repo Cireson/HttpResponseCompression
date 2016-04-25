@@ -1,18 +1,24 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
+    <id>Cireson.HttpResponseCompression.Owin</id>
     <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <title>Cireson.HttpResponseCompression.Owin</title>
+    <authors>Cireson</authors>
+    <owners>Cireson</owners>
+    <licenseUrl>https://github.com/Cireson/HttpResponseCompression/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/Cireson/HttpResponseCompression</projectUrl>
+    <iconUrl>https://github.com/Cireson/HttpResponseCompression/blob/master/Icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Owin specific implementation of response compression.</description>
     <copyright>Copyright 2016</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>Owin Deflate GZip</tags>
+    <dependencies>
+      <dependency id="Microsoft.Owin" version=">=3.0.1" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="bin\$configuration$\Cireson.HttpResponseCompression.Owin.dll" target="lib\net46\" />
+    <file src="bin\$configuration$\Cireson.HttpResponseCompression.Owin.pdb" target="lib\net46\" />
+  </files>
 </package>

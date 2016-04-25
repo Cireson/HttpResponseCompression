@@ -8,10 +8,14 @@
     <owners>Cireson</owners>
     <licenseUrl>https://github.com/Cireson/HttpResponseCompression/blob/master/LICENSE.md</licenseUrl>
     <projectUrl>https://github.com/Cireson/HttpResponseCompression</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://github.com/Cireson/HttpResponseCompression/blob/master/Icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>WebApi specific implementation of response compression.</description>
     <copyright>Copyright 2016</copyright>
     <tags>WebApi Deflate GZip</tags>
   </metadata>
+  <files>
+    <file src="bin\$configuration$\Cireson.HttpResponseCompression.WebApi.dll" target="lib\net46\" />
+    <file src="bin\$configuration$\Cireson.HttpResponseCompression.WebApi.pdb" target="lib\net46\" />
+  </files>
 </package>
