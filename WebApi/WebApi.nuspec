@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Cireson.HttpResponseCompression.WebApi</id>
-    <version>$version$</version>
+    <version>0.0.1</version>
     <title>Cireson.HttpResponseCompression.WebApi</title>
     <authors>Cireson</authors>
     <owners>Cireson</owners>
