@@ -1,5 +1,8 @@
 # HttpResponseCompression
 
+[![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg?maxAge=2592000)](v0.0.4)
+[![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg?maxAge=2592000)](v0.0.2)
+
 ## Credits
 First off the Web API implementation is copied, and tweaked, from  [fabrik](https://github.com/Cireson/HttpResponseCompression/blob/master/LICENSE.md) and [Ben Foster](https://github.com/benfoster)
 
