@@ -1,7 +1,7 @@
 # HttpResponseCompression
 
-[![NuGet](https://img.shields.io/nuget/v/Cireson.HttpResponseCompression.Owin.svg?maxAge=2592000)](https://www.nuget.org/packages/Cireson.HttpResponseCompression.Owin/)
-[![NuGet](https://img.shields.io/nuget/v/Cireson.HttpResponseCompression.WebApi.svg?maxAge=2592000)](https://www.nuget.org/packages/Cireson.HttpResponseCompression.WebApi/)
+Cireson.HttpResponseCompression.Owin [![NuGet](https://img.shields.io/nuget/v/Cireson.HttpResponseCompression.Owin.svg?maxAge=2592000)](https://www.nuget.org/packages/Cireson.HttpResponseCompression.Owin/)
+Cireson.HttpResponseCompression.WebApi [![NuGet](https://img.shields.io/nuget/v/Cireson.HttpResponseCompression.WebApi.svg?maxAge=2592000)](https://www.nuget.org/packages/Cireson.HttpResponseCompression.WebApi/)
 
 ## Credits
 First off the Web API implementation is copied, and tweaked, from  [fabrik](https://github.com/Cireson/HttpResponseCompression/blob/master/LICENSE.md) and [Ben Foster](https://github.com/benfoster)
