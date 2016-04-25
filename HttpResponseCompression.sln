@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin", "Owin\Owin.csproj", "{1F6463F1-F2D9-4A7B-87E0-28B66BBF49BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{73EC56AC-356B-4A3F-B720-82261FDBDB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F6463F1-F2D9-4A7B-87E0-28B66BBF49BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6463F1-F2D9-4A7B-87E0-28B66BBF49BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6463F1-F2D9-4A7B-87E0-28B66BBF49BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6463F1-F2D9-4A7B-87E0-28B66BBF49BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EC56AC-356B-4A3F-B720-82261FDBDB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EC56AC-356B-4A3F-B720-82261FDBDB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EC56AC-356B-4A3F-B720-82261FDBDB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EC56AC-356B-4A3F-B720-82261FDBDB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
