@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Cireson.HttpResponseCompression.Owin</id>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <title>Cireson.HttpResponseCompression.Owin</title>
     <authors>Cireson</authors>
     <owners>Cireson</owners>
@@ -14,7 +14,7 @@
     <copyright>Copyright 2016</copyright>
     <tags>Owin Deflate GZip</tags>
     <dependencies>
-      <dependency id="Microsoft.Owin" version="(3.0.1,)" />
+      <dependency id="Microsoft.Owin" version="(2.0.2,)" />
     </dependencies>
   </metadata>
   <files>
