@@ -13,23 +13,25 @@ namespace Cireson.HttpResponseCompression.Owin.Middleware
 
         public override async Task Invoke(IOwinContext context)
         {
-            var requestCompressionSupport = context.Request.DetectedCompressionSupport();
-            switch (requestCompressionSupport)
+            if (context.Response.Body.Length >= 4096)
             {
-                case HttpCompression.GZip:
-                    context.Response.Body = new GZipStream(context.Response.Body, CompressionLevel.Fastest);
-                    context.Response.Headers.Append(HttpHeaders.ContentEncodingHttpHeaderKey,
-                        HttpHeaders.GzipContentEncodingValue);
-                    break;
-                case HttpCompression.Deflate:
-                    context.Response.Body = new DeflateStream(context.Response.Body, CompressionLevel.Fastest);
-                    context.Response.Headers.Append(HttpHeaders.ContentEncodingHttpHeaderKey,
-                        HttpHeaders.DeflateContentEncodingValue);
-                    break;
-                default:
-                    await Next.Invoke(context);
-                    break;
+                var requestCompressionSupport = context.Request.DetectedCompressionSupport();
+                switch (requestCompressionSupport)
+                {
+                    case HttpCompression.GZip:
+                        context.Response.Body = new GZipStream(context.Response.Body, CompressionLevel.Fastest);
+                        context.Response.Headers.Append(HttpHeaders.ContentEncodingHttpHeaderKey,
+                            HttpHeaders.GzipContentEncodingValue);
+                        break;
+                    case HttpCompression.Deflate:
+                        context.Response.Body = new DeflateStream(context.Response.Body, CompressionLevel.Fastest);
+                        context.Response.Headers.Append(HttpHeaders.ContentEncodingHttpHeaderKey,
+                            HttpHeaders.DeflateContentEncodingValue);
+                        break;
+                }
             }
+
+            await Next.Invoke(context);
         }
     }
 }
