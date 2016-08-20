@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Cireson.HttpResponseCompression.Owin</id>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
     <title>Cireson.HttpResponseCompression.Owin</title>
     <authors>Cireson</authors>
     <owners>Cireson</owners>

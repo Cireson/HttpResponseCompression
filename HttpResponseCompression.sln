@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin", "Owin\Owin.csproj", "{1F6463F1-F2D9-4A7B-87E0-28B66BBF49BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpResponseCompression.Owin", "Owin\HttpResponseCompression.Owin.csproj", "{1F6463F1-F2D9-4A7B-87E0-28B66BBF49BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{73EC56AC-356B-4A3F-B720-82261FDBDB47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.WebSite", "Owin.Website\Owin.WebSite.csproj", "{C7DC0135-81EE-49F6-8FE5-0D707ED1AD0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpResponseCompression.Owin.Tests", "HttpResponseCompression.Owin.Tests\HttpResponseCompression.Owin.Tests.csproj", "{D4BB3D5B-35C7-4A8C-944F-5FB70491E7E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F9C75C4-806C-4ECE-8E09-BE52F0B91D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7DC0135-81EE-49F6-8FE5-0D707ED1AD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DC0135-81EE-49F6-8FE5-0D707ED1AD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DC0135-81EE-49F6-8FE5-0D707ED1AD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DC0135-81EE-49F6-8FE5-0D707ED1AD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BB3D5B-35C7-4A8C-944F-5FB70491E7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BB3D5B-35C7-4A8C-944F-5FB70491E7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BB3D5B-35C7-4A8C-944F-5FB70491E7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BB3D5B-35C7-4A8C-944F-5FB70491E7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
